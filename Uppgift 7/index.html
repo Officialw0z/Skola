@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Star Wars search</title>
+    <link rel="stylesheet" href="style.css">
+    <script defer src="index.js"></script>
+</head>
+<body>
+    <main>
+        <h1> Star Wars API search </h1>
+        <section class="column">
+            <input type="text" id="searchInput" placeholder="Searching for?" />
+            <select id="searchType">
+                <option value="people">People</option>
+                <option value="planets">Planets</option>
+            </select>
+            <button id="searchButton"> Help me Obi-Wan! </button>
+        </section>
+       
+        
+        <section class="resultscolumn">
+            <p id="results">
+                No results yet...
+            </p>
+        </section>
+     
+        <section class="glossary">
+            <h2>Example searches</h2>
+            <div class="glossary-section">
+                <h3>Characters</h3>
+                <ul>
+                    <li>Luke Skywalker</li>
+                    <li>Darth Vader</li>
+                    <li>Leia Organa</li>
+                    <li>Yoda</li>
+                    <li>Obi-Wan Kenobi</li>
+                </ul>
+            </div>
+            <div class="glossary-section">
+                <h3>Planets</h3>
+                <ul>
+                    <li>Tatooine</li>
+                    <li>Alderaan</li>
+                    <li>Yavin IV</li>
+                    <li>Hoth</li>
+                    <li>Dagobah</li>
+                </ul>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
